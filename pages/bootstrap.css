@@ -4553,6 +4553,8 @@ fieldset:disabled .btn {
   color: rgba(0, 0, 0, 0.9);
 }
 
+
+
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
 }
@@ -8091,6 +8093,12 @@ fieldset:disabled .btn {
 
 .bg-secondary {
   background-color: #fff !important;
+}
+
+@media (max-width:800px) {
+  .bg-secondary {
+    background-color: #d9230f !important;
+  }
 }
 
 .bg-success {
