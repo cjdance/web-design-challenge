@@ -1,7 +1,7 @@
 /* styling for Pen, not related to box-sizing or layout */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;
     background-color:#eee;
   }
@@ -20,7 +20,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bolder;
-    background-color: rgb(20, 150, 150);
+    background-color: tomato;
     padding: 10px;
     margin-left: 5%;
   }
@@ -41,13 +41,13 @@ body {
   
   .text-left {
     text-align: left;
-    color: rgb(20, 150, 150);
+    color: tomato;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
   }
   
   .text-center {
-    color: rgb(20, 150, 150);
+    color: tomato;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
   }
@@ -120,4 +120,10 @@ body {
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
+  }
+  
+  @media (max-width:768px) {
+    .bg-light {
+      background-color: tomato !important;
+    }
   }
