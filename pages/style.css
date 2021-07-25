@@ -54,7 +54,7 @@ body {
   
   p:not(.intro) {
     text-align: justify;
-    color: #7e7e7e;
+    color: #000000;
   }
   
   .thumbnail {
