@@ -127,3 +127,15 @@ body {
       background-color: tomato !important;
     }
   }
+
+  .table-primary-or {
+    --bs-table-bg: #f7d3cf;
+    --bs-table-striped-bg: #ebc8c5;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #debeba;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #e4c3bf;
+    --bs-table-hover-color: #000;
+    color: #000;
+    border-color: #debeba;
+  }
