@@ -2,7 +2,7 @@
 
 ## GitPages Deployment
 
-GitPages Deployment of the project can be viewed here: https://cjdance.github.io/humidity.html
+GitPages Deployment of the project can be viewed here: https://cjdance.github.io/index.html
 
 ## Guide to the Repository
 
