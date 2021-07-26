@@ -1,0 +1,134 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    background-color:#eee;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: white;
+  }
+  
+  .navbar {
+    background-color: white;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: tomato;
+    padding: 10px;
+    margin-left: 5%;
+  }
+  
+  .nav-item {
+    font-weight: bold;
+  }
+  
+  .content {
+    width:90%;
+    margin: 20px auto;
+    padding:1em;
+  }
+    
+  .buttons {
+    margin-bottom: .5em;
+  }
+  
+  .text-left {
+    text-align: left;
+    color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  
+  .text-center {
+    color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  
+  p:not(.intro) {
+    text-align: justify;
+    color: #000000;
+  }
+  
+  .thumbnail {
+    width:50%;
+  }
+  
+  .main-image {      
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      float: left;
+  }
+  
+  .col-md-8 {
+    background-color: white;
+  }
+  
+  .col-sm-12,.col-md-4 {
+    background-color: white;
+  }
+  
+  div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+  
+  .imagetiles {
+    background-color: white;
+  }
+  div.imagetiles div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+  
+  div.col-sm-12.col-md-12 p {
+    color: black;
+    font-size: medium;
+  }
+  
+  .panel-body:hover {
+    border-color: blueviolet;
+    border size: 50px;
+  }
+  
+
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  @media (max-width:768px) {
+    .bg-light {
+      background-color: tomato !important;
+    }
+  }
+
+  .table-primary-or {
+    --bs-table-bg: #f7e6d2;
+    --bs-table-striped-bg: tomato !important;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: tomato;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: tomato;
+    --bs-table-hover-color: #000;
+    color: #000;
+    border-color: #000;
+  }
